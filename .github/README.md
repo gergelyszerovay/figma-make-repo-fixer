@@ -31,8 +31,9 @@ npm run dev  # start dev server
 ### Option B: From source ZIP
 
 ```bash
-unzip your-figma-make-project.zip
+mkdir your-figma-make-project
 cd your-figma-make-project
+unzip your-figma-make-project.zip # downloaded from Figma Make
 npx tiged gergelyszerovay/figma-make-repo-fixer --force
 rm .github/README.md  # optional: remove this readme
 npm install  # install dependencies
