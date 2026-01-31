@@ -22,9 +22,10 @@ The commands below use [tiged](https://github.com/tiged/tiged) to download this 
 git clone https://github.com/your-username/your-figma-make-project.git
 cd your-figma-make-project
 npx tiged gergelyszerovay/figma-make-repo-fixer --force
+rm .github/README.md  # optional: remove this readme
 node ./fix-figma-asset-files.js
-npm install
-npm run dev
+npm install  # install dependencies
+npm run dev  # start dev server
 ```
 
 ### Option B: From source ZIP
@@ -33,8 +34,9 @@ npm run dev
 unzip your-figma-make-project.zip
 cd your-figma-make-project
 npx tiged gergelyszerovay/figma-make-repo-fixer --force
-npm install
-npm run dev
+rm .github/README.md  # optional: remove this readme
+npm install  # install dependencies
+npm run dev  # start dev server
 ```
 
 ## Asset fixer
